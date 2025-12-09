@@ -1,4 +1,3 @@
-Perfect! We can update your **README.md** to include a section about your **notebooks and reports** to highlight the ML workflow, methodology, and results. Here's the updated full README you can copy-paste:
 
 ```markdown
 # 🦴 Bone Age Predictor
@@ -166,6 +165,69 @@ Both frontend and backend are deployed on **Render**:
 [GitHub](https://github.com/jawhra1234)
 
 ```
+
+
+```markdown
+## 🔁 Visual Workflow (End-to-End ML → Web App → Cloud)
+
+```
+
+```
+📓  Notebooks & Reports
+    (EDA + Training + Evaluation)
+        |
+        |  → regression.ipynb
+        |  → classification.ipynb
+        |  → Grad-CAM, Metrics, Tuning
+        v
+🧠  Trained Model
+    regression_model.h5
+        |
+        v
+⚙️  Backend – FastAPI
+    app.py
+    • Loads trained ML model  
+    • Handles /predict API requests  
+    • Returns bone age predictions as JSON
+        |
+        v
+🐳  Docker
+    • Dockerfile.backend → Containerized API
+    • Dockerfile.frontend → Built React UI
+        |
+        v
+🖥️  Frontend – React
+    bone-age-ui/
+    • Image upload UI  
+    • Calls backend API  
+    • Displays prediction
+        |
+        v
+☁️  Cloud Deployment – Render
+    TWO SERVICES:
+    
+    1️⃣ Backend Service
+       👉 https://bone-age-backend.onrender.com/
+       
+    2️⃣ Frontend Service
+       👉 https://bone-age-frontend.onrender.com/
+
+        |
+        v
+✅  Final End-User Web App
+    🌐 User uploads X-ray → gets real-time prediction
+```
+
+```
+
+**Complete ML Pipeline Demonstrated:**
+
+- ✔ Data preprocessing & experimentation (Notebooks)  
+- ✔ Model training & evaluation  
+- ✔ API conversion via FastAPI  
+- ✔ Web-based UI using React  
+- ✔ Docker containerization  
+- ✔ Cloud deployment  
 
 ---
 
