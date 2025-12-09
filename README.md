@@ -85,12 +85,7 @@ This project includes detailed **analysis, model building, and evaluation**:
    - Confusion matrices and stage-wise metrics included
 
 3. **Project Report (`bone-age-report.pdf`)**
-   - PRML course project report
    - Includes methodology, dataset preprocessing, model design, results, visualizations, discussion, and references
-   - Authors:
-     - S M Jawhra (CS23B1053)
-     - Gunapriya D (CS23B1036)
-     - Manaswitha C (CS23B1101)
 
 ---
 
